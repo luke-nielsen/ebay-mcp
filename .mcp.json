@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ebay": {
+      "command": "ebay-mcp",
+      "args": ["serve"],
+      "env": {
+        "EBAY_CLIENT_ID": "${EBAY_CLIENT_ID}",
+        "EBAY_CLIENT_SECRET": "${EBAY_CLIENT_SECRET}",
+        "EBAY_ENVIRONMENT": "production",
+        "EBAY_MARKETPLACE_ID": "EBAY_US"
+      }
+    }
+  }
+}
